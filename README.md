@@ -3,7 +3,7 @@
 <br/>
 　　ex_nn.m 是项目的执行文件<br/>
 　　loadData.m 是加载数据的函数，参数为 0 时加载 test 数据，否则加载 training 数据；只要修改此函数里的文件名变量至 MINST 数据集，即可运行<br/>
-　　lrCostFunction_nn.m 是代价函数，返回 J 和 J 对 θ 的导数<br/>
+　　lrCostFunction_nn.m 是代价函数，包含前向传导和反向传导，返回 J 和 J 对 θ 的导数<br/>
 　　fmin_nn.m 是求取 θ 的函数，通过 Mini-batch GD 和 BGD 迭代，得到使 J 最小的 θ<br/>
 　　predict_nn.m 是预测函数，传入 test 样本集和 θ，得到 m*1 预测结果<br/>
 　　sigmoid.m 和 sigmoidGradient.m 是激活函数和激活函数的导数<br/>

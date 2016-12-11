@@ -11,5 +11,5 @@ predict_nn.m 是预测函数，传入 test 样本集和 θ，得到 m*1 预测�
 sigmoid.m 和 sigmoidGradient.m 是激活函数和激活函数的导数<br/>
 transformDataToImage.m 把 data 转化为 image，方便查看，单独使用<br/>
 <br/>
-最后打印出程序用时，程序用时与 n_2 （隐藏层神经元数目）变量成正相关<br/>
+最后打印出程序用时，程序用时与 n_2 （隐藏层神经元数目）变量大小成正相关<br/>
 n_2 等于 30 时，Macbook Air (1.6GHz 双核 Intel Core i5)耗时约 80 s，最后 test 准确率为 91.23%<br/>

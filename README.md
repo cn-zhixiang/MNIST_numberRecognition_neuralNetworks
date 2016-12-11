@@ -1,6 +1,5 @@
 # MNIST_numberRecognition_neuralNetworks
-基于一个 2-layer 「神经网络」对 MNIST 数据集的一个数字识别，IDE 为 Octave。项目采用了「矢量化编程」，循环相对较少<br/>
-MINST 数据集地址：http://yann.lecun.com/exdb/mnist/<br/>
+　　基于一个 2-layer 「神经网络」对 MNIST 数据集的一个数字识别，IDE 为 Octave。项目采用了「矢量化编程」，循环相对较少。MINST 数据集地址：http://yann.lecun.com/exdb/mnist/<br/>
 <br/>
 　　ex_nn.m 是项目的执行文件<br/>
 　　loadData.m 是加载数据的函数，参数为 0 时加载 test 数据，否则加载 training 数据；只要修改此函数里的文件名变量至 MINST 数据集，即可运行<br/>
